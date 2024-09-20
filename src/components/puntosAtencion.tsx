@@ -29,7 +29,7 @@ export const PuntosAtencion = () => {
           <div className="grid lg:grid-cols-3 gap-6 grid-cols-1">
             {data.map((item) => {
               return (
-                <div className="w-[350px] lg:w-auto hover:scale-105 transition-all p-[40px] flex flex-col gap-4 border-2 hover:border-2 hover:border-black border-white transitiom-all ease-in-out duration-300 rounded-[16px]">
+                <div className="w-[350px] lg:w-auto lg:hover:scale-105 transition-all p-[40px] flex flex-col border-black gap-4 border-2 hover:border-2 hover:border-black lg:border-white transitiom-all ease-in-out duration-300 rounded-[16px]">
                   <span>{item.icon}</span>
                   <h3 className="text-[24px] font-bold">{item.title}</h3>
                   <p className="text-[18px] text-[#666]">{item.description}</p>
